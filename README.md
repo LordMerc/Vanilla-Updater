@@ -1,1 +1,4 @@
-Hi there! Testing a readme.md since I never used it
+Hello! This is a auto-updater for the Vanilla icons found here: https://devforum.roblox.com/t/vanilla-a-modern-look-for-your-studio/935745
+
+It's recommend you have this folder in the Local of AppData to make it easier on replacing.
+After having this folder in Local, you can create a shortcut of the thing.bat and drag the shortcut to Desktop for easier updating. Any problems reach me on discord: LordMerc#2323
