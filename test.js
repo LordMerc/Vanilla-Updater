@@ -8,13 +8,15 @@ const getDirectories = source =>
 const results = getDirectories("../Roblox/Versions")
 results.forEach(folder => {
     //console.log(folder.toString().substring(0,9))
-    if (folder.toString().substring(0,9) === "version-0") {
-        //got studio folder
+    fs.readdirSync("../Roblox/Versions/"+folder.toString()).forEach(file => {
+      if (file.toString() === "RobloxStudioBeta.exe") {
+        console.log('Found studio folder, updating..')
         console.log('Current studio folder:',folder.toString())
         const makedr = "../Roblox/Versions/"+folder.toString()+"/content/textures/ClassImages.png"
         fs.copyFile('./ClassImages.png', makedr, (err) => {
             if (err) throw err;
             console.log('File was updated in',makedr);
-          });
-    }
+          })
+      }
+    });
 })
