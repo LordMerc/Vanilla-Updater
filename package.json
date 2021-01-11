@@ -1,0 +1,24 @@
+{
+  "name": "vanilla-updater",
+  "version": "1.1.0",
+  "description": "This is a auto-updater for the Vanilla icons found here: https://devforum.roblox.com/t/vanilla-a-modern-look-for-your-studio/935745",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamnMerc/Vanilla-Updater.git"
+  },
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "replace-in-file": "^6.1.0"
+  },
+  "devDependencies": {},
+  "author": "DamnMerc (https://github.com/DamnMerc)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DamnMerc/Vanilla-Updater/issues"
+  },
+  "homepage": "https://github.com/DamnMerc/Vanilla-Updater#readme"
+}
