@@ -1,5 +1,5 @@
 Hello! This is a auto-updater for the Vanilla icons found here: https://devforum.roblox.com/t/vanilla-a-modern-look-for-your-studio/935745
-**Credits**\n
+**Credits**
 Additional credits to @sasial-dev(https://github.com/sasial-dev) for a good overhaul including additional support for themes.
 
 It's recommended you have this folder in the Local of AppData to make it easier on replacing.
