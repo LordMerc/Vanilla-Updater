@@ -6,3 +6,5 @@ It's recommended you have this folder in the Local of AppData to make it easier 
 After having this folder in Local, you can create a shortcut of the thing.bat and drag the shortcut to Desktop for easier updating. Any problems reach me on discord: LordMerc#2323
 # Dependencies
 You **WILL** need Node.Js installed found here: https://nodejs.org/en/
+You will also need to install replace-in-file
+> **npm i replace-in-file**
