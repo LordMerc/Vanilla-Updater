@@ -1,5 +1,4 @@
 const fs = require('fs')
-const replace = require('replace-in-file')
 const getDirectories = source => {
   fs.readdirSync(source, { withFileTypes: true })
     .filter(dirent => dirent.isDirectory())
