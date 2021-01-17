@@ -9,10 +9,6 @@ You **WILL** need Node.Js installed found here: https://nodejs.org/en/
 
 You will also need to install the following packages:
 
-Replace-in-file
-
-> **npm i replace-in-file**
-
 Inquirer
 
 > **npm i inquirer**
