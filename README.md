@@ -7,5 +7,8 @@ After having this folder in Local, you can create a shortcut of the thing.bat an
 # Dependencies
 You **WILL** need Node.Js installed found here: https://nodejs.org/en/
 
-You will also need to install replace-in-file
+You will also need to install the following packages:
+Replace-in-file
 > **npm i replace-in-file**
+Inquirer
+> **npm i inquirer**
