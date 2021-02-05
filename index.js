@@ -1,11 +1,12 @@
 const fs = require('fs')
-const getDirectories = source => {
+const getDirectories = source =>
   fs.readdirSync(source, { withFileTypes: true })
     .filter(dirent => dirent.isDirectory())
     .map(dirent => dirent.name)
-}
+
 const uploadImage = imageName => {
   const results = getDirectories('../Roblox/Versions')
+  console.log(results)
   results.forEach(folder => {
     //console.log(folder.toString().substring(0,9))
     fs.readdirSync('../Roblox/Versions/' + folder.toString()).forEach(file => {
